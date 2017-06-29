@@ -5,9 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthenticationServer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuth.Models", "TokenAuth.Models\TokenAuth.Models.csproj", "{E659DA53-BD61-4B62-8A0F-4046BCF2A6D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuth.UserManager", "TokenAuth.UserManager\TokenAuth.UserManager.csproj", "{65AC74F1-D5D3-4992-8EAA-FA377D77C8B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuth.Core", "TokenAuth.UserManager\TokenAuth.Core.csproj", "{65AC74F1-D5D3-4992-8EAA-FA377D77C8B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuth.Contracts", "TokenAuth.Contracts\TokenAuth.Contracts.csproj", "{8B318DE6-A6D4-477C-8999-9BA295B9489B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuth.Core.Tests", "TokenAuth.Core.Tests\TokenAuth.Core.Tests.csproj", "{7B699D38-9EA0-4232-95C4-284090B03393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +33,9 @@ Global
 		{8B318DE6-A6D4-477C-8999-9BA295B9489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B318DE6-A6D4-477C-8999-9BA295B9489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B318DE6-A6D4-477C-8999-9BA295B9489B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B699D38-9EA0-4232-95C4-284090B03393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B699D38-9EA0-4232-95C4-284090B03393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B699D38-9EA0-4232-95C4-284090B03393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B699D38-9EA0-4232-95C4-284090B03393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

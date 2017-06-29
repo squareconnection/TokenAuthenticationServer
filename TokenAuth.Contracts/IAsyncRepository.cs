@@ -14,9 +14,9 @@ namespace TokenAuth.Contracts
 
 		Task<List<T>> ToListAsync();
 		Task<T> FindAsync(object id);
-		Task<T> FirstOrDefaultAsync(Expression<Func<T, bool>> filter);
-		Task<T> InsertAsync(T entity);
+		Task<T> FirstOrDefaultAsync(Func<T, bool> filter);
+		void Insert(T entity);
 		Task<List<string>> ModelMetaAsync();
-		Task<T> UpdateAsync(T entity);
+		void Update(T entity);
     }
 }
